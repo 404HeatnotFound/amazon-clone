@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  background: #140b5c;
+  bottom: 0;
+  left: 0;
+}
+.container {
+  width: 100%;
+  background: #140b5c;
+  margin: 0;
+  padding: 30px 40px 40px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  color: #fff;
+  font-size: 30px;
+  font-family: 600;
+  letter-spacing: 20px;
+}
+.media-icon {
+  display: flex;
+}
+
+.media-icon a {
+  height: 40px;
+  width: 40px;
+  background: red;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all0.4s ease;
+}
+.media-icon a:nth-child(1) {
+  background: #4267b2;
+}
+.media-icon a:nth-child(1):hover {
+  color: #4267b2;
+  background: #fff;
+}
+.media-icon a:nth-child(2):hover {
+  color: #4267b2;
+  background: #fff;
+}
+.media-icon a:nth-child(3):hover {
+  color: #e1306c;
+  background: #fff;
+}
+.media-icon a:nth-child(4):hover {
+  color: #4267b2;
+  background: #fff;
+}
+.media-icon a:nth-child(5):hover {
+  color: #4267b2;
+  background: #fff;
+}
+.linkboxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: -20px;
+}
+.io {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+li {
+  list-style: none;
+}
+
+a {
+  color: wheat;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
